@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ehcache>
+<ehcache>
+    <cache name="com.example.entity.Article" maxElementsInMemory="1000"/>
+    <cache name="com.example.entity.Comment" maxElementsInMemory="1000"/>
+</ehcache>
