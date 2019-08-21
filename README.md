@@ -12,7 +12,7 @@ Check the first request trace:
 curl -k 'http://localhost:8080/article/1'
 ```
 
-Duration:213.689ms Services:2 Depth:2 Total Spans:15
+*Duration:213.689ms Services:2 Depth:2 Total Spans:15*
 
 
 Flow:
@@ -46,7 +46,8 @@ Flow:
 curl -k 'http://localhost:8080/article/1'
 ```
 
-Duration: 19.206ms Services:2 Depth:2 Total Spans:7
+*Duration: 19.206ms Services:2 Depth:2 Total Spans:7*
+**~ 10 times improvement in response time**
 
 
 Flow:
