@@ -7,7 +7,7 @@ Ref:
 
 Check the first request trace:
 
-**First Request **
+**First Request**
 ```shell
 curl -k 'http://localhost:8080/article/1'
 ```
@@ -38,10 +38,10 @@ Flow:
 |sql.query|select comments0_.article_id as article_4_2_0_, comments0_.id as id1_2_0_, comments0_.id as id1_2_1_, comments0_.article_id as article_4_2_1_, comments0_.created_at as created_2_2_1_, comments0_.comment_str as comment_3_2_1_, comments0_.user_id as user_id5_2_1_ from comment comments0_ where comments0_.article_id=1|
 |sql.query|select user0_.id as id1_6_0_, user0_.date_of_birth as date_of_2_6_0_, user0_.full_name as full_nam3_6_0_ from user user0_ where user0_.id=1|
 
-[image1]()
+![image1](https://github.com/dineshbhagat/Spring-boot-JPA-Two-Level-Cache/blob/master/images/Screenshot%202019-08-21%20at%209.16.29%20PM.png)
 
 
-**Second Request ** 
+**Second Request** 
 ```shell
 curl -k 'http://localhost:8080/article/1'
 ```
@@ -64,4 +64,4 @@ Flow:
 |sql.query|SET autocommit=1|
 |sql.query|set session transaction read write|
 
-[image2]()
+![image2](https://github.com/dineshbhagat/Spring-boot-JPA-Two-Level-Cache/blob/master/images/Screenshot%202019-08-21%20at%209.16.19%20PM.png)
