@@ -46,8 +46,8 @@ Flow:
 curl -k 'http://localhost:8080/article/1'
 ```
 
-*Duration: 19.206ms Services:2 Depth:2 Total Spans:7*
-**~ 10 times improvement in response time**
+*Duration: 19.206ms Services:2 Depth:2 Total Spans:7*  
+**Approx 10 times improvement in response time**
 
 
 Flow:
